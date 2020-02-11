@@ -21,12 +21,12 @@ void times_table(void)
 			dec = num / 10;
 			uni = num % 10;
 
-			if (num > 10)
+			if (num >= 10)
 			{
 				_putchar(dec + '0');
 
 			}
-			if (num <= 10)
+			if (num < 10)
 				_putchar(' ');
 			_putchar(uni + '0');
 
