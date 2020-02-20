@@ -7,34 +7,33 @@
  */
 int _atoi(char *s)
 {
-	int i, sign, my_num, teens;
+	int sign, my_num, teens;
 	char find_num = 'N';
 
 	my_num = 0;
 	teens = 10;
 	sign = 1;
-	i = 0;
 	if (s)
 	{
-		while (*(s + i) != '\0')
+		while (*s)
 		{
-			if (*(s + i) == '-')
+			if (*s == '-')
 				sign *= -1;
-			if (*(s + i) >= '0' && *(s + i) <= '9' && find_num == 'N')
+			if (*s >= '0' && *s <= '9' && find_num == 'N')
 			{
 				find_num = 'Y';
-				my_num = *(s + i) - '0';
+				my_num = *s - '0';
 			}
-			else if (*(s + i) >= '0' && *(s + i) <= '9' && find_num == 'Y')
+			else if (*s >= '0' && *s <= '9' && find_num == 'Y')
 			{
 				my_num *= teens;
-				my_num += (*(s + i) - '0');
+				my_num += (*s - '0');
 			}
-			else if ((*(s + i) < '0' || *(s + i) > '9') && find_num == 'Y')
+			else if ((*s < '0' || *s > '9') && find_num == 'Y')
 			{
 				break;
 			}
-			i++;
+			s++;
 		}
 	}
 	return (sign * my_num);
