@@ -12,7 +12,7 @@ int main(void)
     char *p;
 
     p = string_toupper(s);
-    printf("%s--", p);
+    printf("%s", p);
     printf("%s", s);
     return (0);
 }
