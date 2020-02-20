@@ -10,6 +10,7 @@ int _atoi(char *s)
 	int i, sign, my_num, teens;
 	char find_num = 'N';
 
+	my_num = 0;
 	teens = 10;
 	sign = 1;
 	i = 0;
