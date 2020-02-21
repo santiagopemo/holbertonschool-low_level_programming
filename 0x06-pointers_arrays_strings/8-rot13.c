@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * leet - encode string
+ * rot13 - encode string
  * @c: char
  * Return: char
  */
