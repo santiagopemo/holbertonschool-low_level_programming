@@ -11,7 +11,7 @@ unsigned int _strspn(char *s, char *accept)
 	int i, j, f;
 	unsigned int l = 0;
 
-	for (i= 0; *(s + i); i++)
+	for (i = 0; *(s + i); i++)
 	{
 		f = 0;
 		for (j = 0; *(accept + j); j++)
@@ -25,7 +25,7 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		if (f == 0)
 		{
-			return (l);			
+			return (l);
 		}
 	}
 	return (l);
