@@ -9,9 +9,9 @@
 char *_strdup(char *str)
 {
 	char *a;
-	int size;
+	int size, i;
 
-	size = 0;
+	i = size = 0;
 	if (str == NULL)
 		return (NULL);
 	while (*(str + size))
@@ -19,9 +19,10 @@ char *_strdup(char *str)
 	a = malloc(sizeof(char) * size);
 	if (a == NULL)
 		return (NULL);
-	while (size--)
+	while (i < size)
 	{
-		*(a + size) = *(str + size);
+		*(a + i) = *(str + i);
+		i++;
 	}
 	return (a);
 }
