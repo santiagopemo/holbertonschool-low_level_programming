@@ -8,11 +8,11 @@
  */
 char *argstostr(int ac, char **av)
 {
-	int i, j, size, acum;
+	int i, j, size, sum;
 	char *p;
 
-	acum = 0;
-	if (ac == 0 || av == NULL)
+	sum = 0;
+	if (ac == 0 || av == 0)
 		return (NULL);
 	for (i = 0; i < ac; i++)
 	{
@@ -29,11 +29,11 @@ char *argstostr(int ac, char **av)
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; *(*(av + i) + j); j++)
-			*(p + (acum + j)) = *(*(av + i) + j);
-		*(p + (acum + j)) = '\n';
-		acum += j;
-		acum++;
+			*(p + (sum + j)) = *(*(av + i) + j);
+		*(p + (sum + j)) = '\n';
+		sum += j;
+		sum++;
 	}
-	*(p + acum) = '\0';
+	*(p + sum) = '\0';
 	return (p);
 }
