@@ -11,6 +11,8 @@ char *argstostr(int ac, char **av)
 	int i, j, size, acum;
 	char *p;
 
+	UNUSED(ac);
+	UNUSED(av);
 	acum = 0;
 	if (ac == 0 || av == NULL)
 		return (NULL);
