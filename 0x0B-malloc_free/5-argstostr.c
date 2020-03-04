@@ -11,8 +11,6 @@ char *argstostr(int ac, char **av)
 	int i, j, size, acum;
 	char *p;
 
-	UNUSED(ac);
-	UNUSED(av);
 	acum = 0;
 	if (ac == 0 || av == NULL)
 		return (NULL);
@@ -28,9 +26,7 @@ char *argstostr(int ac, char **av)
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; *(*(av + i) + j); j++)
-		{
 			*(p + (acum + j)) = *(*(av + i) + j);
-		}
 		*(p + (acum + j)) = '\n';
 		acum += j;
 		acum++;
