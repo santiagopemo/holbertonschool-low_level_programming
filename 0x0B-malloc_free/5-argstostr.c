@@ -11,7 +11,7 @@ char *argstostr(int ac, char **av)
 	int i, j, size, sum;
 	char *p;
 
-	sum = 0;
+	size = sum = 0;
 	if (ac == 0 || av == 0)
 		return (NULL);
 	for (i = 0; i < ac; i++)
