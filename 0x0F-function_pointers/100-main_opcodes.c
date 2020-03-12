@@ -2,7 +2,8 @@
 
 /**
  * main - check the code for Holberton School students.
- *
+ * @argc: number of arguments
+ * @argv: strings of arguments
  * Return: Always 0.
  */
 int main(int argc, char *argv[])
@@ -23,9 +24,7 @@ int main(int argc, char *argv[])
 	}
 	p = (unsigned char *)main;
 	for (i = 0; i < num_bytes; i++)
-	{
-		printf("%02x%s",*(p + i),(i == (num_bytes - 1) ? "\n" : " "));		
-	}
-	return(0);
+		printf("%02x%s", *(p + i), (i == (num_bytes - 1) ? "\n" : " "));
+	return (0);
 }
 
