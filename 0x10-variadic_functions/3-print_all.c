@@ -1,14 +1,14 @@
 #include "variadic_functions.h"
 
 /**
- * priar - function that prints char
+ * print_char - function that prints char
  * @c: va_list with argument
  *
  * Return: nothing
  */
 void print_char(va_list c)
 {
-	printf("%c", va_arg(c, char));
+	printf("%c", va_arg(c, int));
 }
 
 /**
@@ -19,7 +19,7 @@ void print_char(va_list c)
  */
 void print_integer(va_list i)
 {
-	printf("%c", va_arg(i, int));
+	printf("%i", va_arg(i, int));
 }
 
 /**
@@ -30,18 +30,19 @@ void print_integer(va_list i)
  */
 void print_float(va_list f)
 {
-	printf("%c", va_arg(f, float));
+	printf("%f", va_arg(f, double));
 }
 
 /**
  * print_string - function that prints string
- * @f: va_list with argument
+ * @s: va_list with argument
  *
  * Return: nothing
  */
-void print_float(va_list s)
+void print_string(va_list s)
 {
 	char *string = va_arg(s, char *);
+
 	if (string == NULL)
 		string = "(nil)";
 	printf("%s", string);
@@ -59,10 +60,31 @@ void print_all(const char * const format, ...)
 		{"c", print_char},
 		{"i", print_integer},
 		{"f", print_float},
-		{"s", print_string},
-		{NULL, NULL}
-	}
+		{"s", print_string}
+	};
+	int i, j;
 	va_list valist;
+	char *separator;
 
 	va_start(valist, format);
+	i = 0;
+	separator = "";
+	while (*(format + i) && format)
+	{
+		j = 0;
+		while (j < 4)
+		{
+			if (*(options + j)->op == *(format + i))
+			{
+				printf("%s", separator);
+				(options + j)->f(valist);
+				separator = ", ";
+				break;
+			}
+			j++;
+		}
+		i++;
+	}
+	va_end(valist);
+	printf("\n");
 }
