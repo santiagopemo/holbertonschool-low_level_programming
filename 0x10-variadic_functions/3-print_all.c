@@ -69,15 +69,15 @@ void print_all(const char * const format, ...)
 
 	va_start(valist, format);
 	i = 0;
-	while (format && format[i])
+	while (format && *(format + i))
 	{
 		j = 0;
-		while (options[j].op != NULL)
+		while ((options + j)->op != NULL)
 		{
-			if (*options[j].op == format[i])
+			if (*(options + j)->op == format[i])
 			{
 				printf("%s", separator);
-				options[j].f(valist);
+				(options + j)->f(valist);
 				separator = ", ";
 				break;
 			}
@@ -87,35 +87,4 @@ void print_all(const char * const format, ...)
 	}
 	va_end(valist);
 	printf("\n");
-	/*unsigned int i, j;
-	op_t p[] = {
-		{"c", print_char},
-		{"s", print_string},
-		{"i", print_integer},
-		{"f", print_float},
-		{NULL, NULL}
-	};
-	va_list valist;
-	char *separator = "";
-
-	va_start(valist, format);
-	i = 0;
-	while (format && format[i])
-	{
-		j = 0;
-		while (p[j].op != NULL)
-		{
-			if (*(p[j].op) == format[i])
-			{
-				printf("%s", separator);
-				p[j].f(valist);
-				separator = ", ";
-				break;
-			}
-			j++;
-		}
-		i++;
-	}
-	va_end(valist);
-	printf("\n");*/
 }
