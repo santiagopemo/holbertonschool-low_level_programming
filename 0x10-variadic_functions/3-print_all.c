@@ -60,7 +60,8 @@ void print_all(const char * const format, ...)
 		{"c", print_char},
 		{"i", print_integer},
 		{"f", print_float},
-		{"s", print_string}
+		{"s", print_string},
+		{NULL, NULL}
 	};
 	int i, j;
 	va_list valist;
@@ -72,7 +73,7 @@ void print_all(const char * const format, ...)
 	while (*(format + i) && format)
 	{
 		j = 0;
-		while (j < 4)
+		while ((options + j)->op != NULL)
 		{
 			if (*(options + j)->op == *(format + i))
 			{
