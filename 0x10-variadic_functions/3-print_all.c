@@ -56,7 +56,7 @@ void print_string(va_list s)
  */
 void print_all(const char * const format, ...)
 {
-	/*unsigned int i, j;
+	unsigned int i, j;
 	op_t options[] = {
 		{"c", print_char},
 		{"i", print_integer},
@@ -69,15 +69,15 @@ void print_all(const char * const format, ...)
 
 	va_start(valist, format);
 	i = 0;
-	while (*(format + i) && format)
+	while (format[i] && format)
 	{
 		j = 0;
-		while ((options + j)->op != NULL)
+		while (options[j].op != NULL)
 		{
-			if (*(options + j)->op == *(format + i))
+			if (*options[j].op == format[i])
 			{
 				printf("%s", separator);
-				(options + j)->f(valist);
+				options[j].f(valist);
 				separator = ", ";
 				break;
 			}
@@ -86,8 +86,8 @@ void print_all(const char * const format, ...)
 		i++;
 	}
 	va_end(valist);
-	printf("\n");*/
-	unsigned int i, j;
+	printf("\n");
+	/*unsigned int i, j;
 	op_t p[] = {
 		{"c", print_char},
 		{"s", print_string},
@@ -117,5 +117,5 @@ void print_all(const char * const format, ...)
 		i++;
 	}
 	va_end(valist);
-	printf("\n");
+	printf("\n");*/
 }
