@@ -19,7 +19,7 @@ void print_char(va_list c)
  */
 void print_integer(va_list i)
 {
-	printf("%i", va_arg(i, int));
+	printf("%d", va_arg(i, int));
 }
 
 /**
@@ -56,6 +56,7 @@ void print_string(va_list s)
  */
 void print_all(const char * const format, ...)
 {
+	unsigned int i, j;
 	op_t options[] = {
 		{"c", print_char},
 		{"i", print_integer},
@@ -63,13 +64,11 @@ void print_all(const char * const format, ...)
 		{"s", print_string},
 		{NULL, NULL}
 	};
-	int i, j;
 	va_list valist;
-	char *separator;
+	char *separator = "";
 
 	va_start(valist, format);
 	i = 0;
-	separator = "";
 	while (*(format + i) && format)
 	{
 		j = 0;
