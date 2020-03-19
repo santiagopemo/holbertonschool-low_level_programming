@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_node_end -  function that adds a new node at the beginning of a list_t list
+ * add_node_end -  function that adds a new node at the beginning of a list
  * @head: head list pointer
  * @str: string
  *
@@ -34,7 +34,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (new);
 	}
 	tmp = *head;
-	for(;tmp->next;)
+	for (; tmp->next;)
 		tmp = tmp->next;
 	tmp->next = new;
 	return (tmp);
