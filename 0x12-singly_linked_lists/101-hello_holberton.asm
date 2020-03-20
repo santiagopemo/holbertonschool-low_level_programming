@@ -15,5 +15,5 @@ mov rax, 0      ; printf is varargs,  EAX cuenta
 call printf
 
 mov ebx, 0      ; normal-exit code
-mov eax, 1      ; process-termination service
+mov eax, 0      ; process-termination service
 int 0x80        ; linux kernel service
