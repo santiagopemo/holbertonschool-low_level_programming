@@ -1,5 +1,5 @@
 # Low Level Programming & Algorithms
-<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/212/cisfun.jpg" width="500">
+<center><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/212/cisfun.jpg" width="500"></center>
 
 ## Introduction 
 This repository contains all the project tasks of Holberton School low level programing program, most fo them are written in C programing lenguage.
