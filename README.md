@@ -38,7 +38,7 @@ This repository contains all the project tasks of Holberton School low level pro
 	* gcc 4.8.4 (-Wall, -Werror, -Wextra, and -pedantic flags)
 
 ## Projects
-	* 1. [0x00-hello_world](./0x00-hello_world)
+	* 1. [0x00-hello_world](https://github.com/santiagopemo/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
 	* 2. [0x01-variables_if_else_while](./0x01-variables_if_else_while)
 	* 3. [0x02-functions_nested_loops](./0x02-functions_nested_loops)
 	* 4. [0x03-debugging](./0x03-debugging)
