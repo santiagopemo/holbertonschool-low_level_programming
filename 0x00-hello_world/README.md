@@ -43,4 +43,4 @@
 - [x] [101-quote.c](./101-quote.c) - Write a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
 
 ## Author :pencil:
-### Santiago Peña Mosquera
+### Santiago Peña Mosquera - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
