@@ -4,10 +4,10 @@
 This repository contains all the project tasks of Holberton School low level programing program, most fo them are written in C programing lenguage.
 
 ## Table of Contents :book:
-* [About](#about)
-* [Requirements](#requirements)
-* [Projects](#projects)
-* [Author](#autor)
+* [About](#About)
+* [Requirements](#Requirements)
+* [Projects](#Projects)
+* [Author](#Author)
 
 ## About
 This repository contains projects on the C programming language. The projects cover:
