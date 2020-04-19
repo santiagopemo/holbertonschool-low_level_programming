@@ -32,3 +32,15 @@ Read or Watch:
 * The first line of all your files should be exactly #!/bin/bash
 
 ## Tasks
+1. [0-preprocessor](./0-preprocessor)
+2. [1-compiler](./1-compiler)
+3. [2-assembler](./2-assembler)
+4. [3-name](./3-name)
+5. [4-puts.c](./4-puts.c)
+6. [5-printf.c](./5-printf.c)
+7. [6-size.c](./6-size.c)
+8. [100-intel](./100-intel)
+9. [101-quote.c](./101-quote.c)
+
+## Author :pencil:
+* Santiago Peña Mosquera
