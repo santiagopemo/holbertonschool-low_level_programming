@@ -1,13 +1,13 @@
 # 0x00. C - Hello, World
 
 ## Table of Contents :book:
-* [About](#About)
-* [Resources](#Resources)
-* [Requirements](#Requirements)
+* [About](##About)
+* [Resources](##Resources)
+* [Requirements](##Requirements)
 * [Tasks](#Tasks)
 * [Author](#Author)
 
-## About :question:
+## About
 
 * What happens when you type gcc main.c
 * What is an entry point
