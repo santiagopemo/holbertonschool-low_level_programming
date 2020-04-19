@@ -32,15 +32,15 @@ Read or Watch:
 * The first line of all your files should be exactly #!/bin/bash
 
 ## Tasks
-1. [0-preprocessor](./0-preprocessor)
-2. [1-compiler](./1-compiler)
-3. [2-assembler](./2-assembler)
-4. [3-name](./3-name)
-5. [4-puts.c](./4-puts.c)
-6. [5-printf.c](./5-printf.c)
-7. [6-size.c](./6-size.c)
-8. [100-intel](./100-intel)
-9. [101-quote.c](./101-quote.c)
+1. [0-preprocessor](./0-preprocessor) - Write a script that runs a C file through the preprocessor and save the result into another file.
+2. [1-compiler](./1-compiler) - Write a script that compiles a C file but does not link.
+3. [2-assembler](./2-assembler)  - Write a script that generates the assembly code of a C code and save it in an output file.
+4. [3-name](./3-name)  - Write a script that compiles a C file and creates an executable named cisfun.
+5. [4-puts.c](./4-puts.c)  - Write a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+6. [5-printf.c](./5-printf.c) - Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
+7. [6-size.c](./6-size.c) - Write a C program that prints the size of various types on the computer it is compiled and run on.
+8. [100-intel](./100-intel) - Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+9. [101-quote.c](./101-quote.c) - Write a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
 
 ## Author :pencil:
 * Santiago Peña Mosquera
