@@ -2,7 +2,7 @@
 
 ## Table of Contents :book:
 * [About](#about)
-* [Resources](#resources :books:)
+* [Resources](#resources)
 * [Requirements](#requirements)
 * [Tasks](#tasks)
 * [Author](#author)
@@ -20,7 +20,7 @@
 * How to find the right header to include in your source code when using a standard library function
 * How does the main function influence the return value of the program
 
-## Resources :books:
+## Resources:books:
 
 * [Everything you need to know to start with C](https://intranet.hbtn.io/rltoken/JgP0ALD8CNZM19FLZQetMQ)
 * [Dennis Ritchie](https://intranet.hbtn.io/rltoken/vY9KI1Ai38BUuydEfadtaA)
