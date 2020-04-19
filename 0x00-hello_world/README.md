@@ -12,7 +12,7 @@
 * [Hash-bang under the hood](https://intranet.hbtn.io/rltoken/7oODGrfLgAJJzoCbfBap3Q)
 * [Linus Torvalds on C vs. C++ ](https://intranet.hbtn.io/rltoken/8rYFkn82I0QlSygvC0u2Jw)
 
-## About
+## Learning Objectives :bulb:
 * What happens when you type gcc main.c
 * What is an entry point
 * What is main
