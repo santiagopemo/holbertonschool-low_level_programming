@@ -33,6 +33,8 @@
 * Don’t forget to push your header file
 
 ## Tasks :page_with_curl:
+
+### Mandatory
 - [x] **[0-holberton.c](./0-holberton.c)** - Write a program that prints Holberton, followed by a new line.
 - [x] **[1-alphabet.c](./1-alphabet.c)** - Write a function that prints the alphabet, in lowercase, followed by a new line.
 - [x] **[2-print_alphabet_x10.c](./2-print_alphabet_x10.c)** - Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.
@@ -45,6 +47,8 @@
 - [x] **[9-times_table.c](./9-times_table.c)** - Write a function that prints the 9 times table, starting with 0.
 - [x] **[10-add.c](./10-add.c)** - Write a function that adds two integers and returns the result.
 - [x] **[11-print_to_98.c](./11-print_to_98.c)** - Write a function that prints all natural numbers from n to 98, followed by a new line.
+
+### Advance
 - [ ] **[100-times_table.c](./100-times_table.c)** - Write a function that prints the n times table, starting with 0.
 - [ ] **[101-natural.c](./101-natural.c)** - If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Write a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
 - [ ] **[102-fibonacci.c](./102-fibonacci.c)** - Write a program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
