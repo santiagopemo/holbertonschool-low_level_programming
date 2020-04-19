@@ -1,11 +1,11 @@
 # 0x00. C - Hello, World
 
 ## Table of Contents :book:
-* [About](##About)
-* [Resources](##Resources)
-* [Requirements](##Requirements)
-* [Tasks](#Tasks)
-* [Author](#Author)
+* [About](#about)
+* [Resources](#resources)
+* [Requirements](#requirements)
+* [Tasks](#tasks)
+* [Author](#author)
 
 ## About
 
