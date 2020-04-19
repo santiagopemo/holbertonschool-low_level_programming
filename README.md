@@ -1,4 +1,4 @@
-# Holberton School Low Level Programming & Algorithms
+# Holberton School Low Level Programming & Algorithms :boom:
 
 ## Introduction 
 This repository contains all the project tasks of Holberton School low level programing program, most of them where written in C programing lenguage.
@@ -50,12 +50,12 @@ This repository contains projects on the C programming language. The projects co
 15. [0x0E-structures_typedef](./0x0E-structures_typedef)
 16. [0x0F-function_pointers](./0x0F-function_pointers)
 17. [0x10-variadic_functions](./0x10-variadic_functions)
-18. [0x11-printf](https://github.com/NaranjoJorge/printf) ** printf project **
+18. [0x11-printf](https://github.com/NaranjoJorge/printf) **printf project**
 19. [0x12-singly_linked_lists](./0x12-singly_linked_lists)
 20. [0x12-more_singly_linked_lists](./0x13-more_singly_linked_lists)
 21. [0x14-bit_manipulation](./0x14-bit_manipulation)
 22. [0x15-file_io](./0x15-file_io)
-23. [0x16-simple_shell](https://github.com/santiagopemo/simple_shell) ** C Shell project **
+23. [0x16-simple_shell](https://github.com/santiagopemo/simple_shell) **C Shell project**
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
