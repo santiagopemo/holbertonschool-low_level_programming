@@ -41,6 +41,13 @@
 
 ## Tasks :page_with_curl:
 
+
+- [x] uses the PATH
+- [x] implements builtins
+- [x] handles command line arguments
+- [x] custom strtok function
+- [x] uses exit status
+
 - **[x] [0-positive_or_negative.c](./0-positive_or_negative.c)** - This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
 - **[x] [1-last_digit.c](./1-last_digit.c)** - This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
 - **[x] [2-print_alphabet.c](./2-print_alphabet.c)** - Write a program that prints the alphabet in lowercase, followed by a new line.
