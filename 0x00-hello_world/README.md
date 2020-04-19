@@ -43,7 +43,7 @@
 * The first line of all your files should be exactly `#!/bin/bash`
 
 ## Tasks :page_with_curl:
-- [x] [0-preprocessor](./0-preprocessor) - Write a script that runs a C file through the preprocessor and save the result into another file.
+- [x] **[0-preprocessor](./0-preprocessor)** - Write a script that runs a C file through the preprocessor and save the result into another file.
 - [x] [1-compiler](./1-compiler) - Write a script that compiles a C file but does not link.
 - [x] [2-assembler](./2-assembler)  - Write a script that generates the assembly code of a C code and save it in an output file.
 - [x] [3-name](./3-name)  - Write a script that compiles a C file and creates an executable named cisfun.
