@@ -4,7 +4,7 @@
 ## Introduction 
 This repository contains all the project tasks of Holberton School low level programing program, most fo them are written in C programing lenguage.
 
-## Table of Contents
+## Table of Contents:book:
 * [About](#about)
 * [Requirements](#requirements)
 * [Projects](#projects)
@@ -58,5 +58,5 @@ This repository contains projects on the C programming language. The projects co
 22. [0x15-file_io](./0x15-file_io)
 23. [0x16-simple_shell](https://github.com/santiagopemo/simple_shell) ** C Shell project **
 
-## Author
+## Author:pencil:
 * Santiago Peña Mosquera
