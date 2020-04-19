@@ -33,7 +33,7 @@ This repository contains projects on the C programming language. The projects co
 ## Compiling
 * gcc 4.8.4 (-Wall, -Werror, -Wextra, and -pedantic flags)
 
-## Projects
+## Projects :page_with_curl:
 1. [0x00-hello_world](./0x00-hello_world)
 2. [0x01-variables_if_else_while](./0x01-variables_if_else_while)
 3. [0x02-functions_nested_loops](./0x02-functions_nested_loops)
