@@ -1,7 +1,7 @@
 # Low Level Programming & Algorithms
 
 ## Introduction 
-This repository contains all the project tasks of Holberton School low level programing program, most fo them are written in C programing lenguage.
+This repository contains all the project tasks of Holberton School low level programing program, most of them where written in C programing lenguage.
 
 ## Table of Contents :book:
 * [About](#About)
