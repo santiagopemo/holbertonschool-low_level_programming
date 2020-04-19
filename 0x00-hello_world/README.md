@@ -2,7 +2,7 @@
 
 ## Table of Contents :book:
 * [About](#about)
-* [Resources](#resources)
+* [Resources](#resources :books:)
 * [Requirements](#requirements)
 * [Tasks](#tasks)
 * [Author](#author)
