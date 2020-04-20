@@ -1,4 +1,4 @@
-# 0x00. C - Hello, World
+# 0x03. C - Debugging
 ## Resources :books:
 
 * [Debugging](https://intranet.hbtn.io/rltoken/iADtJa-KkjYI56m-cQyWIw)
