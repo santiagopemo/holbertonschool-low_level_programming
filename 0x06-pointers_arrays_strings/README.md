@@ -44,8 +44,8 @@
 ### Advance :muscle:
 - [x] **[100-print_number.c](./100-print_number.c)** - Write a function that prints an integer.
 - [x] **[101-magic.c](./101-magic.c)** - Add one line to [this code](https://github.com/holbertonschool/make_magic_happen/blob/master/magic.c), so that the program prints a[2] = 98, followed by a new line.
-- [x] **[102-infinite_add.c](./102-infinite_add.c)** - Write a function that adds two numbers.
-- [x] **[103-print_buffer.c](./103-print_buffer.c)** - Write a function that prints a buffer.
+- [ ] **[102-infinite_add.c](./102-infinite_add.c)** - Write a function that adds two numbers.
+- [ ] **[103-print_buffer.c](./103-print_buffer.c)** - Write a function that prints a buffer.
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
