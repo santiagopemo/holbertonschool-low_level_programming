@@ -1,4 +1,4 @@
-# 0x00. C - Hello, World
+# 0x09. C - Static libraries
 ## Resources :books:
 
 * [What Is A “C” Library? What Is It Good For?](https://intranet.hbtn.io/rltoken/PbeVzqesxDzZeETuXCHfJw)
