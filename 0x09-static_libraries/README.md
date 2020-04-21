@@ -29,7 +29,7 @@
 
 ## Tasks :page_with_curl:
 ### Mandatory
-- [x] **[libholberton.a](./libholberton.a), [holberton.h](./holberton.h)** - Create the static library `libholberton.a` containing all the functions listed below:
+- [x] **[libholberton.a](./libholberton.a), [holberton.h](./holberton.h)** - Create the static library `libholberton.a` containing all the functions listed in [holberton.h](./holberton.h).
 - [x] **[create_static_lib.sh](./create_static_lib.sh)** - Create a script called `create_static_lib.sh` that creates a static library called `liball.a` from all the `.c` files that are in the current directory.
 
 ## Author :pencil:
