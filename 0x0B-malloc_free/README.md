@@ -1,4 +1,4 @@
-# 0x00. C - Hello, World
+# 0x0B. C - malloc, free
 ## Resources :books:
 
 * [0x0a - malloc & free - quick overview](https://intranet.hbtn.io/rltoken/zDApffV1n5HOh6Awvd3P6w)
