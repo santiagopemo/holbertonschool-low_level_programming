@@ -1,5 +1,5 @@
- - Variadic functions
-
+0x10. C - Variadic functions
+---
 ## Resources:books:
 Read or watch:
 * [stdarg.h](https://intranet.hbtn.io/rltoken/KNHC7kjcnZZCKDCHdXis4w)
