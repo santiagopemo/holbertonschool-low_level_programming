@@ -1,6 +1,5 @@
 # 0x10. C - Variadic functions
 
----
 ## Resources:books:
 Read or watch:
 * [stdarg.h](https://intranet.hbtn.io/rltoken/KNHC7kjcnZZCKDCHdXis4w)
@@ -9,13 +8,11 @@ Read or watch:
 * [Variadic Functions](https://intranet.hbtn.io/rltoken/VOS7s9X1ysxlU2X3xtCmFw)
 * [Const Keyword](https://intranet.hbtn.io/rltoken/vxuoclIH_Hap9c7sciDnFQ)
 
----
 ## Learning Objectives:bulb:
 * What are variadic functions
 * How to use va_start, va_arg and va_end macros
 * Why and how to use the const type qualifier
 
----
 ## Requirements :white_check_mark:
 * Allowed editors: `vi`, `vim`, `emacs`
 * All your files will be compiled on Ubuntu 14.04 LTS
@@ -33,7 +30,6 @@ Read or watch:
 * Don’t forget to push your header file
 * All your header files should be include guarded
 
----
 ## Tasks :page_with_curl:
 ### Mandatory
 - [x] **[0. Beauty is variable, ugliness is constant](./0-sum_them_all.c)** - Write a function that returns the sum of all its parameters.
@@ -42,8 +38,6 @@ Read or watch:
 - [x] **[3. To be is a to be the value of a variable](./3-print_all.c)** - Write a function that prints anything.
 ### Advance :muscle:
 - [x] **[4. Real programmers can write assembly code in any language ](./100-hello_holberton.asm)** - Write a 64-bit program in assembly that prints Hello, Holberton, followed by a new line.
-
----
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
