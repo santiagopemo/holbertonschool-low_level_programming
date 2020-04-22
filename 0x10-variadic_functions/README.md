@@ -1,4 +1,5 @@
 0x10. C - Variadic functions
+
 ---
 ## Resources:books:
 Read or watch:
