@@ -30,7 +30,10 @@ This repository contains projects on the C programming language. The projects co
 * Ubuntu 14.04 LTS
 
 ## Compiling
-* gcc 4.8.4 (-Wall, -Werror, -Wextra, and -pedantic flags)
+#### C
+* `gcc 4.8.4` with `-Wall`, `-Werror`, `-Wextra`, and `-pedantic` flags
+#### Assembly
+* `nasm 2.10.09` with `-f` flag, and `elf64` format
 
 ## Projects :page_with_curl:
 1. [0x00-hello_world](./0x00-hello_world)
