@@ -30,9 +30,9 @@ This repository contains projects on the C programming language. The projects co
 * Ubuntu 14.04 LTS
 
 ## Compiling
-#### C
+#### * C
 `gcc 4.8.4` with `-Wall`, `-Werror`, `-Wextra`, and `-pedantic` flags
-#### Assembly
+#### * Assembly
 `nasm 2.10.09` with `-f` flag, and `elf64` format
 
 ## Projects :page_with_curl:
