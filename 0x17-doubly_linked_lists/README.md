@@ -37,8 +37,8 @@
 - [x] **[7. Insert at index](./7-insert_dnodeint.c)** - Write a function that inserts a new node at a given position.
 - [x] **[8. Delete at index](./8-delete_dnodei)** - Write a function that deletes the node at index index of a dlistint_t linked list.
 ### Advance :muscle:
-- [ ] **[9. Crackme4](./100-password)** - Find the password for crackme4.
-- [ ] **[10. Palindromes](./102-result)** - A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+- [x] **[9. Crackme4](./100-password)** - Find the password for crackme4.
+- [x] **[10. Palindromes](./102-result)** - A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 - [ ] **[11. crackme5](./103-keygen.c)** - Write a keygen for crackme5.
 
 ## Author :pencil:

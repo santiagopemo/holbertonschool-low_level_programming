@@ -30,7 +30,10 @@ This repository contains projects on the C programming language. The projects co
 * Ubuntu 14.04 LTS
 
 ## Compiling
-* gcc 4.8.4 (-Wall, -Werror, -Wextra, and -pedantic flags)
+#### C
+`gcc 4.8.4` with `-Wall`, `-Werror`, `-Wextra`, and `-pedantic` flags
+#### Assembly
+`nasm 2.10.09` with `-f` flag, and `elf64` format
 
 ## Projects :page_with_curl:
 1. [0x00-hello_world](./0x00-hello_world)
@@ -56,6 +59,7 @@ This repository contains projects on the C programming language. The projects co
 21. [0x14-bit_manipulation](./0x14-bit_manipulation)
 22. [0x15-file_io](./0x15-file_io)
 23. [0x16-simple_shell](https://github.com/santiagopemo/simple_shell) - **C Shell project**
+24. [0x17-doubly_linked_lists](./0x17-doubly_linked_lists)
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
