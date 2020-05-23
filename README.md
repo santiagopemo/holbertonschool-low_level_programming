@@ -60,6 +60,7 @@ This repository contains projects on the C programming language. The projects co
 22. [0x15-file_io](./0x15-file_io)
 23. [0x16-simple_shell](https://github.com/santiagopemo/simple_shell) - **C Shell project**
 24. [0x17-doubly_linked_lists](./0x17-doubly_linked_lists)
+25. [0x18. C - Dynamic libraries](./0x18-dynamic_libraries)
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
