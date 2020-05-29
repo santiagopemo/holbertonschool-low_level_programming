@@ -74,17 +74,36 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	new_node->value = new_value;
 	new_node->next = ht->array[index];
 	ht->array[index] = new_node;
-	new_node->sprev = NULL;
-	if (ht->shead == NULL)
+	/* new_node->sprev = NULL;*/
+	if (ht->shead == NULL && ht->stail == NULL)
 	{
+		new_node->sprev = NULL;
 		new_node->snext = NULL;
 		ht->shead = new_node;
 		ht->stail = new_node;
 		return (1);
 	}
-	ht->shead->sprev = new_node;
-	new_node->snext = ht->shead;
-	ht->shead = new_node;
+	/* ht->shead->sprev = new_node;*/
+	/* new_node->snext = ht->shead;*/
+	/* ht->shead = new_node;*/
+	for (t = ht->shead; t; t = t->snext)
+	{
+		if (strcmp(new_node->key, t->key) < 0)
+		{
+			new_node->snext = t;
+			new_node->sprev = t->sprev;
+			t->sprev = new_node;
+			if (new_node->sprev)
+				new_node->sprev->snext = new_node;
+			else
+				ht->shead = new_node;
+			return (1);
+		}
+	}
+	new_node->sprev = ht->stail;
+	ht->stail->snext = new_node;
+	ht->stail = new_node;
+	new_node->snext = NULL;
 	return (1);
 }
 
