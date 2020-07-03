@@ -8,32 +8,26 @@ def island_perimeter(grid):
     """
     Returns the perimeter of the island described in grid
     """
-    max_h = 0
-    max_v = 0
-    h_flag = False
-    v_flag = False
-    for row in grid:
-        tmp_h = 0
-        for col in row:
-            if col == 1 and h_flag is False:
-                h_flag = True
-            if col == 0 and h_flag is True:
-                h_flag = False
-                if tmp_h > max_h:
-                    max_h = tmp_h
-                tmp_h = 0
-            if h_flag:
-                tmp_h += 1
+    max_h = -1
+    min_h = len(grid[0])
+    min_v = len(grid)
+    max_v = -1
+    for i in range(len(grid)):
+        for j in range(len(grid[0])):
+            if grid[i][j] == 1 and j < min_h:
+                min_h = j
+            if grid[i][j] == 1 and j > max_h:
+                max_h = j
     for i in range(len(grid[0])):
-        tmp_v = 0
         for j in range(len(grid)):
-            if grid[j][i] == 1 and v_flag is False:
-                v_flag = True
-            if grid[j][i] == 0 and v_flag is True:
-                v_flag = False
-                if tmp_v > max_v:
-                    max_v = tmp_v
-                tmp_v = 0
-            if v_flag:
-                tmp_v += 1
-    return 2 * max_h + 2 * max_v
+            if grid[j][i] == 1 and j < min_v:
+                min_v = j
+            if grid[j][i] == 1 and j > max_v:
+                max_v = j
+    if max_h == -1 or max_v == -1:
+        return 0
+    # print("max_h = {}   min_h = {}".format(max_h, min_h))
+    # print("max_v = {}   min_v = {}".format(max_v, min_v))
+    h = max_h - min_h + 1
+    v = max_v - min_v + 1
+    return h + h + v + v
