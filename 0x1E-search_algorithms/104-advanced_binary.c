@@ -22,7 +22,7 @@ void recursive_binary_search(int *array, int low, int high, int value, int *r)
 		printf("%d, ", array[i]);
 	printf("%d\n", array[i]);
 	middle = low + (high - low) / 2;
-	if (array[middle] == value && (middle == low || array[middle - 1] != value))
+	if (array[middle] == value && array[middle - 1] != value)
 		*r = middle;
 	else if (array[middle] >= value)
 		recursive_binary_search(array, low, middle, value, r);
