@@ -15,21 +15,19 @@ void recursive_binary_search(int *array, int low, int high, int value, int *r)
 {
 	int i, middle;
 
-	if (low > high)
+	if (high < low)
 		return;
 	printf("Searching in array: ");
 	for (i = low; i < high; i++)
 		printf("%d, ", array[i]);
 	printf("%d\n", array[i]);
 	middle = low + (high - low) / 2;
-	if (array[middle] < value)
-		recursive_binary_search(array, (middle + 1), high, value, r);
-	else if (array[middle] > value)
-		recursive_binary_search(array, low, (middle - 1), value, r);
-	else if (low != middle)
+	if (array[middle] == value && (middle == low || array[middle - 1] != value))
+		*r = middle;
+	else if (array[middle] >= value)
 		recursive_binary_search(array, low, middle, value, r);
 	else
-		*r = middle;
+		recursive_binary_search(array, middle + 1, high, value, r);
 }
 /**
  * advanced_binary - function that searches for a value in
