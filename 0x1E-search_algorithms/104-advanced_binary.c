@@ -15,7 +15,7 @@ void recursive_binary_search(int *array, int low, int high, int value, int *r)
 {
 	int i, middle;
 
-	if (high < low)
+	if (low > high)
 		return;
 	printf("Searching in array: ");
 	for (i = low; i < high; i++)
@@ -44,7 +44,7 @@ int advanced_binary(int *array, size_t size, int value)
 {
 	int result = -1;
 
-	if (array == NULL || size == 0)
+	if (array == NULL)
 		return (-1);
 	recursive_binary_search(array, 0, (int) size - 1, value, &result);
 	return (result);
