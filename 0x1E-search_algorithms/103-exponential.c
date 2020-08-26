@@ -16,7 +16,7 @@ int exp_binary_search(int *array, int low, int high, int value)
 
 	if (array == NULL)
 		return (-1);
-	for (; low <= high;)
+	for (; low < high;)
 	{
 		printf("Searching in array: ");
 		for (i = low; i < high; i++)
