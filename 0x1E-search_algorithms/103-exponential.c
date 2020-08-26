@@ -25,7 +25,7 @@ int exp_binary_search(int *array, int low, int high, int value)
 		middle = low + (high - low) / 2;
 		if (array[middle] == value)
 			return (array[middle]);
-		if (array[middle] < value)
+		if (array[middle] <= value)
 			low = middle + 1;
 		else
 			high = middle - 1;
