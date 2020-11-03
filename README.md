@@ -64,6 +64,8 @@ This repository contains projects on the C programming language. The projects co
 26. [0x19. C - Stacks, Queues - LIFO, FIFO](./https://github.com/santiagopemo/monty) - **Monty project**
 27. [0x1A. C - Hash tables](./0x1A-hash_tables)
 28. [0x1B. C - Sorting algorithms & Big O](./https://github.com/santiagopemo/sorting_algorithms) - **Sorting algorithms & Big O project**
+29. [0x1C. C - Makefiles](./0x1C-makefiles)
+30. [0x1E. C - Search Algorithms](./0x1E-search_algorithms)
 
 ## Author :pencil:
 **Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
