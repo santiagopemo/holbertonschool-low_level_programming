@@ -2,7 +2,10 @@
 
 ## Description 
 A low-level or first-generation feature programming language is one in which its instructions exert direct control over the hardware and are conditioned by the physical structure of the computers that support it, and the reduced abstraction between language and hardware. Since they are the basis for the most modern high-level languages, it is important to understand their structure and operation.
-This repository contains all the project tasks of Holberton School low level programing program, most of them where written in C programing lenguage.
+This repository contains all the project tasks of Holberton School low level programing program, most of them where written in C programing lenguage.  
+<p align="center">
+  <img width="100%" height="auto" src="./c-program.PNG">
+</p>
 
 ## Table of Contents :book:
 * [About](#About)
@@ -11,7 +14,6 @@ This repository contains all the project tasks of Holberton School low level pro
 * [Author](#Author)
 
 ## About
-Each of the following folders contain the projects, with the different topics in the process of learning the different programming languages mentioned above.  
 This repository contains projects on the C programming language. The projects cover:
 - Compilation
 - Commenting code and following a coding style standard
@@ -38,6 +40,7 @@ This repository contains projects on the C programming language. The projects co
 `nasm 2.10.09` with `-f` flag, and `elf64` format
 
 ## Projects :page_with_curl:
+Each of the following folders contain the projects, with the different topics in the process of learning the different programming languages mentioned above.  
 1. [0x00-hello_world](./0x00-hello_world)
 2. [0x01-variables_if_else_while](./0x01-variables_if_else_while)
 3. [0x02-functions_nested_loops](./0x02-functions_nested_loops)
