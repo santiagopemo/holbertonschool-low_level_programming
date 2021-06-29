@@ -1,6 +1,7 @@
 # Holberton School Low Level Programming & Algorithms :boom:
 
-## Introduction 
+## Description 
+A low-level or first-generation feature programming language is one in which its instructions exert direct control over the hardware and are conditioned by the physical structure of the computers that support it, and the reduced abstraction between language and hardware. Since they are the basis for the most modern high-level languages, it is important to understand their structure and operation.
 This repository contains all the project tasks of Holberton School low level programing program, most of them where written in C programing lenguage.
 
 ## Table of Contents :book:
@@ -10,6 +11,7 @@ This repository contains all the project tasks of Holberton School low level pro
 * [Author](#Author)
 
 ## About
+Each of the following folders contain the projects, with the different topics in the process of learning the different programming languages mentioned above.  
 This repository contains projects on the C programming language. The projects cover:
 - Compilation
 - Commenting code and following a coding style standard
@@ -68,4 +70,7 @@ This repository contains projects on the C programming language. The projects co
 30. [0x1E. C - Search Algorithms](./0x1E-search_algorithms)
 
 ## Author :pencil:
-**Santiago Peña Mosquera** - twitter [@Santiag11470161](https://twitter.com/Santiag11470161) - LinkedIn [Santiago Peña Mosquera](https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/)
+### Santiago Peña Mosquera  
+Mechatronic engineer and student of software development in holberton school, lover of building new things from scratch, that's why my passion for programming, starting from an empty sheet and turning it into a solution for real problems.  
+<a href="https://www.linkedin.com/in/santiago-pe%C3%B1a-mosquera-abaa20196/" target="_blank">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://twitter.com/santiagopemo" target="_blank">Twitter</a>
